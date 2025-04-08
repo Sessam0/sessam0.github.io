@@ -1,0 +1,18 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(109, 224, 119);
+}
+
+.menu{
+    display: inline;
+}
+
+#CONTENIDO{
+    text-align: center;
+}

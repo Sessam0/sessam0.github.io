@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(230, 226, 199);
+}
+h1{
+    background-color: rgb(226, 92, 15);
+    font-size: x-larg   e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h2{
+    background-color: rgb(238, 186, 108);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h3{
+    background-color: blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h4{
+    background-color: rgb(214, 213, 137);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h5{
+    background-color: rgb(231, 189, 154);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h6{
+    background-color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{
+    background-color: rgb(228, 201, 161);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.clase{
+    color: #f5a860;
+}
+
+#titulo1{
+    color: #e2c4a9;
+}
+
+.clase2{
+    color: #f5a860;
+}
+
+.container{
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px rgb(106, 211, 45);
+}
+
+#titulo1{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    background-color: beige;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+button{
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+div {
+    animation: girar 2s infinite linear;
+}
